@@ -126,7 +126,7 @@ nav {
 }
 
 #left img {
-    width: 50px;
+    width: 100px;
 }
 
 #right {
@@ -148,9 +148,11 @@ footer {
     background: url('https://github.com/btanguturu/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
     background-color: rgba(169, 169, 169, 1);
     background-blend-mode: multiply;
-    height: 35vh;
+    height: 40vh;
     text-align: center;
     margin-top: 100px;
+    position: fixed;
+    left: 0;
     bottom: 0;
 }
 
@@ -189,7 +191,7 @@ footer {
 }
 
 #left img {
-    width: 50px;
+    width: 100px;
 }
 
 #search {
@@ -320,6 +322,7 @@ img {
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
+    padding: 20px;
 }
 
 #bio h4,
@@ -338,4 +341,5 @@ img {
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 4;
+    padding: 20px;
 }
