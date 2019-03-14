@@ -16,7 +16,7 @@
 body {
     font-family: 'Museo', sans-serif;
     font-weight: 300;
-    background: url('https://github.com/btanguturu/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
+    background: url('../assets/textures/fabric_plaid.png');
 }
 
 a {
@@ -145,13 +145,12 @@ nav {
 /*footer*/
 
 footer {
-    background: url('https://github.com/btanguturu/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+    background: url('../assets/textures/az_subtle.png');
     background-color: rgba(169, 169, 169, 1);
     background-blend-mode: multiply;
     height: 40vh;
     text-align: center;
     margin-top: 100px;
-    position: fixed;
     left: 0;
     bottom: 0;
 }
