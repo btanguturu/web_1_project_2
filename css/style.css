@@ -36,7 +36,7 @@ a {
 }
 
 .slider {
-    background: url('http://images6.fanpop.com/image/photos/37300000/Rapunzel-Concept-Art-tangled-37351111-1280-812.jpg');
+    background: url('../assets/images/Rapunzel-Concept-Art-tangled-37351111-1280-812.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -103,7 +103,7 @@ a {
     width: 15%;
     margin-top: 20px;
     padding: 10px 40px;
-    background: url('https://github.com/btanguturu/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+    background: url('../assets/textures/az_subtle.png');
     background-color: rgba(169, 169, 169, 1);
     background-blend-mode: multiply;
     color: white;
