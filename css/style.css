@@ -330,6 +330,11 @@ img {
     padding: 10px;
 }
 
+#bio img {
+    width: 100px;
+    height: 100px;
+}
+
 .sicon {
     width: 25px;
     padding: 5px;
