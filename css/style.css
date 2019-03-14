@@ -35,17 +35,17 @@ a{
     border:10px solid white;
     margin:0 auto;
     width:95%;
-    height:40vh;
+    height:50vh;
   }
   
   .slider {
     background: url('http://images6.fanpop.com/image/photos/37300000/Rapunzel-Concept-Art-tangled-37351111-1280-812.jpg');
     background-position: center;
-      background-size: cover;
+    background-size: cover;
     display:flex;
     align-items:flex-end;
     justify-content:flex-end;
-    height:40vh;
+    height:50vh;
   }
   
   .sText{
@@ -81,7 +81,7 @@ a{
     display:flex;
     flex-direction: column;
     align-items:center;
-      justify-content:center;
+    justify-content:center;
   }
   
   .left, .middle, .right{
@@ -127,10 +127,11 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     align-items:flex-end;
+    padding:1%;
   }
   
   .icon{
-    width: 50px;
+    width: 25px;
   }
 
   /*footer*/
