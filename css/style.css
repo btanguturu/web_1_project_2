@@ -131,7 +131,7 @@ nav {
   }
   
   .icon{
-    width: 25px;
+    width: 30px;
   }
 
   /*footer*/
@@ -142,6 +142,7 @@ nav {
     background-blend-mode:multiply;
     height:35vh;
     text-align:center;
+    margin-top: 100px; 
     bottom: 0;
   }
   
