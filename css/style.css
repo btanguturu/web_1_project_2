@@ -272,20 +272,26 @@ img {
 }
 
 #focus {
-    background: url('https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80');
+    background: url('../assets/images/Alien_Bust.png');
     background-size: cover;
     background-position: center;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
-    border: 1px solid red;
+    border: 10px solid white;
+}
+
+#position-one,
+#position-two,
+#position-three {
+    border: 10px solid white;
+    background-position: center;
+    background-size: cover;
 }
 
 #position-one {
-    background: url('https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
-    background-position: center;
-    background-size: cover;
+    background: url('../assets/images/Alien_Bust.png');
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
@@ -293,9 +299,7 @@ img {
 }
 
 #position-two {
-    background: url('https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
-    background-position: center;
-    background-size: cover;
+    background: url('../assets/images/Alien_Bust.png');
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -303,9 +307,7 @@ img {
 }
 
 #position-three {
-    background: url('https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
-    background-position: center;
-    background-size: cover;
+    background: url('../assets/images/Alien_Bust.png');
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
@@ -313,7 +315,7 @@ img {
 }
 
 #bio {
-    background: red;
+    background: white;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -331,7 +333,7 @@ img {
 }
 
 #project-detail {
-    background: blue;
+    background: white;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 2;
