@@ -251,11 +251,12 @@ h3 {
 /*Student page styling*/
 
 #student-feature {
-    width: 80vw;
+    width: 95vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr) 2fr;
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
+    margin: 0 auto;
 }
 
 img {
