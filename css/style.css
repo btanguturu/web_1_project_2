@@ -251,6 +251,7 @@ h3 {
 /*Student page styling*/
 
 #student-feature {
+    width: 80vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr) 2fr;
     grid-template-rows: repeat(3, 1fr);
