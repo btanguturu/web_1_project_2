@@ -16,4 +16,224 @@
 body{
     font-family: 'Museo', sans-serif;
     font-weight: 300;
+    background: url('https://github.com/btanguturu/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
 }
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+*{
+    margin:0;
+    padding:0;
+  }
+
+  /*home page styling*/
+.cara{
+    position: relative;
+    border:10px solid white;
+    margin:0 auto;
+    width:95%;
+    height:40vh;
+  }
+  
+  .slider {
+    background: url('http://images6.fanpop.com/image/photos/37300000/Rapunzel-Concept-Art-tangled-37351111-1280-812.jpg');
+    background-position: center;
+      background-size: cover;
+    display:flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+    height:40vh;
+  }
+  
+  .sText{
+    padding:15px;
+    background: rgba(128,128,128, 0.6);
+    width:100%;
+    text-align:right;
+    color:white;
+  }
+  
+  .larrow, .rarrow{
+    width:50px;
+    position: absolute;
+    top:40%;
+  }
+  
+  .larrow{
+    left:-3%;
+  }
+  
+  .rarrow{
+    left:96.8%;
+  }
+  
+  .desc{
+    margin: 0 auto;
+    padding:30px;
+    font-size:26px;
+    text-align:center;
+  }
+  
+  .gallery{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+      justify-content:center;
+  }
+  
+  .left, .middle, .right{
+    display:flex;
+    align-items:center;
+      justify-content:center;
+  }
+  
+  .left img, .middle img, .right img{
+    background:grey;
+    width:22%;
+    margin:1.3%;
+  }
+  
+  .button{
+    text-align:center;
+    width:15%;
+    margin-top:20px;
+    padding:10px 40px;
+    background: url('https://github.com/btanguturu/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+    background-color: rgba(169,169,169,1);
+    background-blend-mode:multiply;
+    color:white;
+  }
+
+  /*Nav styling*/
+
+nav {
+    display: flex;
+      justify-content: space-between;
+  }
+
+  #left{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px;
+    width:25%;
+  }
+  
+  #right{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-end;
+  }
+  
+  .icon{
+    width: 50px;
+  }
+
+  /*footer*/
+  
+  footer{
+    background: url('https://github.com/btanguturu/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+    background-color: rgba(169,169,169,1);
+    background-blend-mode:multiply;
+    height:35vh;
+    text-align:center;
+  }
+  
+  #tweet{
+    background: #666;
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px
+  }
+  
+  #tweet img{
+    width:25px;
+  }
+  
+  #tweet p{
+    padding:5px;
+    color:white;
+  }
+  
+  .time{
+    margin-top:5px;
+    font-size:12px;
+  }
+  
+  #footer-columns{
+    display: flex;
+    justify-items:flex-start;
+    align-items:flex-start;
+  }
+  
+  #left p{
+    color: white;
+  }
+  
+  #search{
+    background:white;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(169,169,169);
+  }
+  
+  #search img{
+    height:25px;
+  }
+  
+  #search p{
+    color: rgb(169,169,169);
+  }
+  
+  .links a{
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .footer-column{
+    padding:1%;
+    width:32%;
+  }
+  
+  h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding:1%;
+    font-size:18px;
+  }
+  
+  #fright{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    width: 32%;
+    padding:1%;
+    border:1px solid blue;
+  }
+  
+  #fright a{
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .top, .bottom{
+    display:flex;
+    align-items:center;
+      justify-content:center;
+  }
+  
+  .top img, .bottom img{
+    background:grey;
+    width:25%;
+    margin:1.3%;
+  }
