@@ -125,6 +125,10 @@ nav {
     width: 25%;
 }
 
+#left img {
+    width: 50px;
+}
+
 #right {
     display: flex;
     flex-direction: column;
@@ -182,6 +186,10 @@ footer {
 
 #left p {
     color: white;
+}
+
+#left img {
+    width: 50px;
 }
 
 #search {
